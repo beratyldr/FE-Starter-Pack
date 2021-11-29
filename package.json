@@ -16,10 +16,14 @@
     "postinstall": "husky install"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@loadable/component": "5.14.1",
     "assert": "2.0.0",
     "axios": "0.21.1",
     "browserify-zlib": "0.2.0",
+    "http": "^0.0.1-security",
+    "js": "^0.1.0",
+    "parser": "^0.1.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router-dom": "5.2.0",
@@ -27,9 +31,9 @@
     "util": "0.12.3"
   },
   "devDependencies": {
-    "@babel/core": "7.12.16",
+    "@babel/core": "^7.16.0",
     "@babel/plugin-transform-runtime": "7.12.17",
-    "@babel/preset-env": "7.12.1",
+    "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "7.12.1",
     "@babel/preset-typescript": "7.12.16",
     "@babel/runtime": "7.12.13",
@@ -39,7 +43,7 @@
     "@types/webpack-env": "1.16.0",
     "@typescript-eslint/eslint-plugin": "4.15.0",
     "@typescript-eslint/parser": "4.15.1",
-    "babel-loader": "8.1.0",
+    "babel-loader": "^8.1.0",
     "babel-plugin-import": "1.13.3",
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "5.0.2",
@@ -66,7 +70,7 @@
     "style-loader": "2.0.0",
     "terser-webpack-plugin": "5.1.1",
     "typescript": "4.1.5",
-    "webpack": "5.24.3",
+    "webpack": "^5.24.3",
     "webpack-cli": "4.9.0",
     "webpack-dev-server": "3.11.0",
     "webpack-merge": "5.7.3"
